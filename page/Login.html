@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Login">
+    <meta name="author" content="yenming">
+
+    <title>萊康科技有限公司,Taipei City</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<style type="text/css" media="screen">
+
+body {
+    padding-top: 50px; 
+}
+
+
+.title-header {
+    height: 80px;
+    background-color:#59affc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer{
+    margin: 50px 0;
+    background-color:#ffffff;
+    background-size: cover;"
+}
+.LoginForm{
+
+    border-top-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.SubmitBtn{
+    color:#fff;
+    background-color:#59affc;
+    border-color:#59affc;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top: 10px;
+    border-left-width:20px;
+    border-right-width:20px;
+    border-top-left-radius: 50px 70px;
+    border-top-right-radius: 50px 70px;
+    border-bottom-right-radius:50px 70px;
+    border-bottom-left-radius: 50px 70px;
+}
+    
+</style>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               <a class="navbar-brand" href="#"><img src="../img/logo.png" height="30px" width="100px" style="margin-top: -5px;"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                        <a class="page-scroll" href="../index.html">首頁</a>
+                            
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../page/About.html">關於萊康</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../page/ProductList.html">產品列表</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../page/ContactUs.html">聯絡我們</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                    <span><a href="../page/Login.html" id="Login-btn" class="btn btn-primary"
+                        style="
+                        color:#fff;
+                        background-color:#a9a9a9;
+                        border-color:#a9a9a9;
+                        margin-left:15px;
+                        margin-right:15px;
+                        margin-top: 5px;
+                        border-left-width:15px;
+                        border-right-width:15px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 50px 70px;
+                        border-bottom-right-radius:20px;
+                        border-bottom-left-radius: 50px 70px;
+                    ">登入</a></span>
+                    
+
+                    </li>
+                    <li>
+                    <span><a href="../page/Register.html" id="Register-btn" class="btn btn-primary"
+                    style="
+                        color:#fff;
+                        background-color:#1e90ff;
+                        border-color:#1e90ff;
+                        margin-left:15px;
+                        margin-right:15px;
+                        margin-top: 5px;
+                        border-left-width:15px;
+                        border-right-width:15px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 50px 70px;
+                        border-bottom-right-radius:20px;
+                        border-bottom-left-radius: 50px 70px;
+                    ">註冊</a></span>
+                        
+                    </li>
+                    <li>
+                        <select name="language" style="margin:10px">
+                            <option value="zh-TW" label="繁體中文"></option>
+                            <option value="en-US" label="English"></option>
+                            <option value="ja-JP" label="日本語"></option>
+                        </select>
+                        
+                    </li>
+
+                </ul>
+                </div>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+        <!-- /.container -->
+    </nav>
+
+    <header class="title-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">登入</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div id="ContentLogin">
+        <div class="container">
+            <div class="row">
+               
+                <form action="#" method="POST" id="LoginForm">
+                <p>請使用LifeCom帳號登入</p>
+                <div class="col-lg-12">
+                帳號：
+                <input type="text" class="form-control" name="" value="" placeholder="">
+                </div>
+                <div class="col-lg-12">
+                密碼：
+                <input type="password" class="form-control" name="" value="" placeholder="">
+                </div> 
+                <div class="col-lg-12">
+                <center>
+                    <button type="submit" class="SubmitBtn btn btn-primary">Submit</button>
+                </center>
+                </div>
+                <div class="col-lg-12">
+                <center>
+                    <a href="ForgetPassword.html" class="#">Forgot Password?</a>
+                </center>
+                
+                </div>
+                </form>
+                
+
+            </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; 2015 LIFECOM TECHNOLOGY CO., LTD.</p>
+                </div>
+
+                <div class="col-lg-12">
+                <a href="#">Terms of Use &nbsp;</a>/
+                <a href="#">&nbsp;Privacy Policy</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

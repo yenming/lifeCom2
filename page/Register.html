@@ -1,0 +1,332 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Login">
+        <meta name="author" content="yenming">
+
+        <title>萊康科技有限公司,Taipei City</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+
+    </head>
+    <style type="text/css" media="screen">
+
+    body {
+        padding-top: 50px; 
+    }
+
+
+    .title-header {
+        height: 80px;
+        background-color:#59affc;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+
+    .tagline {
+        text-shadow: 0 0 10px #000;
+        color: #fff;
+    }
+
+    .img-center {
+        margin: 0 auto;
+    }
+
+    footer{
+        margin: 50px 0;
+        background-color:#ffffff;
+        background-size: cover;"
+    }
+    .LoginForm{
+
+        border-top-width: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding :5px;
+
+    }
+    .SubmitBtn{
+        color:#fff;
+        background-color:#59affc;
+        border-color:#59affc;
+        margin-left:15px;
+        margin-right:15px;
+        margin-top: 10px;
+        border-left-width:20px;
+        border-right-width:20px;
+        border-top-left-radius: 50px 70px;
+        border-top-right-radius: 50px 70px;
+        border-bottom-right-radius:50px 70px;
+        border-bottom-left-radius: 50px 70px;
+    }
+    .SubmitCanBtn{
+        color:#fff;
+        background-color:#c0c0c0;
+        border-color:#c0c0c0;
+        margin-left:15px;
+        margin-right:15px;
+        margin-top: 10px;
+        border-left-width:20px;
+        border-right-width:20px;
+        border-top-left-radius: 50px 70px;
+        border-top-right-radius: 50px 70px;
+        border-bottom-right-radius:50px 70px;
+        border-bottom-left-radius: 50px 70px;
+    }
+        
+    </style>
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+   <a class="navbar-brand" href="#"><img src="../img/logo.png" height="30px" width="100px" style="margin-top: -5px;"></a>
+            </span>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <div>
+                        <ul class="nav navbar-nav">
+                            <li class="hidden">
+                                <a class="page-scroll" href="#page-top"></a>
+                            </li>
+                            <li>
+                            <a class="page-scroll" href="../index.html">首頁</a>
+                                
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="../page/About.html">關於萊康</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="../page/ProductList.html">產品列表</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="../page/ContactUs.html">聯絡我們</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                        <span><a href="../page/Login.html" id="Login-btn" class="btn btn-primary"
+                            style="
+                            color:#fff;
+                            background-color:#a9a9a9;
+                            border-color:#a9a9a9;
+                            margin-left:15px;
+                            margin-right:15px;
+                            margin-top: 5px;
+                            border-left-width:15px;
+                            border-right-width:15px;
+                            border-top-left-radius: 20px;
+                            border-top-right-radius: 50px 70px;
+                            border-bottom-right-radius:20px;
+                            border-bottom-left-radius: 50px 70px;
+                        ">登入</a></span>
+                        
+
+                        </li>
+                        <li>
+                        <span><a href="../page/Register.html" id="Register-btn" class="btn btn-primary"
+                        style="
+                            color:#fff;
+                            background-color:#1e90ff;
+                            border-color:#1e90ff;
+                            margin-left:15px;
+                            margin-right:15px;
+                            margin-top: 5px;
+                            border-left-width:15px;
+                            border-right-width:15px;
+                            border-top-left-radius: 20px;
+                            border-top-right-radius: 50px 70px;
+                            border-bottom-right-radius:20px;
+                            border-bottom-left-radius: 50px 70px;
+                        ">註冊</a></span>
+                            
+                        </li>
+                        <li>
+                            <select name="language" style="margin:10px">
+                                <option value="zh-TW" label="繁體中文"></option>
+                                <option value="en-US" label="English"></option>
+                                <option value="ja-JP" label="日本語"></option>
+                            </select>
+                            
+                        </li>
+
+                    </ul>
+                    </div>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+            <!-- /.container -->
+        </nav>
+
+        <header class="title-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="tagline">註冊</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div id="ContentLogin">
+            <div class="container">
+                <div class="row">
+                   
+                    <form action="#" method="POST" id="LoginForm">
+                     <h5>建立新帳號：</h5>
+                    <div class="col-lg-12">
+                <label for="email">電子郵件：</label>           
+                <input type="email" class="form-control"  
+                data-val="true" data-val-email="信箱的格式不正確" data-val-required="請輸入信箱" 
+                id="Email" name="Email">
+                    </div>                    
+                    <div class="col-lg-12">
+                <label for="pwd">密碼：</label>           
+                <input class="form-control" data-val="true"
+                 data-val-length="密碼 必須至少 6 個字元" 
+                 data-val-length-max="100" data-val-length-min="6" 
+                 data-val-required="請輸入密碼" id="Password" name="Password" type="password" />
+                    </div>
+                    <div class="col-lg-12">
+                    <label for="ConfirmPassword">確認密碼：</label>
+                    <input class="form-control" data-val="true"
+                     data-val-equalto="密碼和確認密碼不一致" 
+                     data-val-equalto-other="*.Password" 
+                     id="ConfirmPassword" name="ConfirmPassword" type="password" />
+                    </div>
+                     <div class="col-lg-12">
+                     <label for="FullName">全名：</label>
+                      <input class="form-control" data-val="true" data-val-required="請輸入全名" id="FullName" name="FullName" type="text" value="" />
+
+                     </div>
+                     <div class="col-lg-12">
+                     <label for="Birthday">生日：</label>
+                     <input class="form-control" data-val="true" data-val-date="The field 生日 must be a date." id="Birthday" name="Birthday" type="date" value="" />
+
+                     </div>
+                     <div class="col-lg-12">
+                     <label for="Education">學歷：</label>
+                     <select class="form-control" id="Education" name="Education"><option value="博士">博士</option>
+                    <option value="碩士">碩士</option>
+                    <option value="大學">大學</option>
+                    <option value="專科">專科</option>
+                    <option value="高中">高中</option>
+                    <option value="國中">國中</option>
+                    <option value="其它">其它</option>
+                    </select>
+
+
+                     </div>
+                     <div class="col-lg-12">
+                     <label for="PhoneNumber">電話號碼：</label>
+                     <input class="form-control" id="PhoneNumber" name="PhoneNumber" type="text" value="" />
+                     </div>
+                     <div class="col-lg-12">
+                     <label for="PhoneNumber">行動電話：</label>
+                    <input class="form-control" data-val="true" data-val-required="請輸入行動電話" id="MobileNumber" name="MobileNumber" type="text" value="" />
+
+                     </div>
+                     <div class="col-lg-12">
+                     <label for="ProductId">產品：</label>
+                     <input class="form-control" data-val="true" data-val-number="The field 產品 must be a number." data-val-required="The 產品 field is required." id="ProductId" name="ProductId" type="text" value="" />
+
+                    </div>
+                    <div class="col-lg-12">
+                     <label for="SerialNo">產品序號：</label>
+                    <input class="form-control" data-val="true" data-val-regex="無效的產品序號" data-val-regex-pattern="^\w{11,11}$" data-val-required="請輸入產品序號" id="SerialNo" name="SerialNo" type="text" value="" />
+                    </div>
+                    <div class="col-lg-12">
+                     <label for="PurchaseDate">購買日期：</label>
+                     <input class="form-control" data-val="true" data-val-date="The field 購買日期 must be a date." data-val-required="請輸入購買日期" id="PurchaseDate" name="PurchaseDate" type="date" value="2016/02/21" />
+
+                     </div>
+                     <div class="col-lg-12">
+                     <label for="PurchaseChannel">購買地點：</label>
+                    <input class="form-control" data-val="true" data-val-required="請輸入購買地點" id="PurchaseChannel" name="PurchaseChannel" type="text" value="" />
+                     </div>
+                    <div class="col-lg-12">
+                     <label for="Type">魚種／餐廳類別：</label>
+                     <input class="form-control" id="Type" name="Type" type="text" value="" />
+
+                     </div>
+                     <div class="col-lg-12">
+                    <label for="Culture">語系：</label>
+                    <select class="form-control" id="Culture" name="Culture">
+                    <option value="en-US">English</option>
+                    <option selected="selected" value="zh-TW">繁體中文</option>
+                    <option value="zh-CN">简体中文</option>
+                    <option value="ja-JP">日本語</option>
+                    </select>
+                     </div>
+                    <div class="col-lg-12">
+                    <input id="agreement" type="checkbox" />
+                        <label for="agreement" class="control-label">
+                        我已閱讀、了解並接受
+                        <a href="#" target="_blank">
+                        會員服務條款</a>與
+                        <a href="#" target="_blank">個人隱私權政策</a></label>
+
+                    </div>
+                    <div class="col-lg-12">
+                    <center>
+                        <button type="submit" class="SubmitBtn btn btn-primary">註冊</button>
+                        <button type="submit" class="SubmitCanBtn btn btn-primary">取消</button>
+                    </center>
+                    </div>
+                    </form>
+                    
+
+                </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="copyright text-muted small">Copyright &copy; 2015 LIFECOM TECHNOLOGY CO., LTD.</p>
+                    </div>
+
+                    <div class="col-lg-12">
+                    <a href="#">Terms of Use &nbsp;</a>/
+                    <a href="#">&nbsp;Privacy Policy</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="../js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>
